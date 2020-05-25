@@ -50,7 +50,7 @@ The script will attempt to execute the 'Factory Reset' steps on each connected d
 
 <img src="screenshot.png"
      alt="Sample execution output"
-     style="max-width: 80%;" />
+     style="max-width: 70%;" />
 
 ## Viewing Reports
 The script logs the outcome of the 'Factory Reset' attempt for each device in an SQLite3 database. The file is saved by the name 'ACTIVITY_LOG.sqlite3' in the decommissioner directory.
