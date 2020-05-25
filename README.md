@@ -21,7 +21,7 @@ While it was written for a specific version of Android, the code is organized in
 
 
 ## Environment
-* USB debugging needs to be enabled on the devices to be reset. [How To](https://developer.android.com/studio/debug/dev-options)
+* USB debugging needs to be enabled on the devices to be reset. ([How To](https://developer.android.com/studio/debug/dev-options))
 
 # Getting Started
 ## Setting Up
@@ -48,7 +48,7 @@ Execute the following command while in the decommissioner directory.
 ```
 The script will attempt to execute the 'Factory Reset' steps on each connected device simultaneously and will output the results on screen as in the following example.
 
-! [Screenshot of output] (screenshot.png "Screenshot of execution output")
+![Screenshot of output] (screenshot.png "Screenshot of execution output")
 
 ## Viewing Reports
 The script logs the outcome of the 'Factory Reset' attempt for each device in an SQLite3 database. The file is saved by the name 'ACTIVITY_LOG.sqlite3' in the decommissioner directory.
