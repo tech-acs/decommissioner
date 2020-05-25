@@ -48,7 +48,8 @@ Execute the following command while in the decommissioner directory.
 ```
 The script will attempt to execute the 'Factory Reset' steps on each connected device simultaneously and will output the results on screen as in the following example.
 
-![Screenshot of output] (screenshot.png "Screenshot of execution output")
+<img src="screenshot.png"
+     alt="Sample execution output" />
 
 ## Viewing Reports
 The script logs the outcome of the 'Factory Reset' attempt for each device in an SQLite3 database. The file is saved by the name 'ACTIVITY_LOG.sqlite3' in the decommissioner directory.
